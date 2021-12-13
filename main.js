@@ -131,7 +131,7 @@ playPauseButton.addEventListener('click', playPause)
 function playPause() {
   // Update the Button
   let pause = playPauseButton.innerHTML === 'Play';
-  playPauseButton.innerHTML = pause ? 'Pause' : 'Play';
+  playPauseButton.innerHTML = pause ? 'Play' : 'Pause';
 
   // Update the Audio
   let method = pause ? 'play' : 'pause';
@@ -146,6 +146,7 @@ currentSoundEl.addEventListener('ended', fileEnd)
 function fileEnd() {
   playPauseButton.innerHTML = 'Play';
 }
+
 
 
 
