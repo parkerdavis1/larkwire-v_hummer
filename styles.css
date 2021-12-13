@@ -1,0 +1,28 @@
+.grid-container {
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  max-width: 70%;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 1px 1px 5px lightgray;
+}
+
+/* .bird:active {
+  background-color: lightgray;
+} */
+
+/* .bendire { */
+  /* background-image: url('./images/bendire.png'); */
+  /* background-size: contain; */
+/* } */
