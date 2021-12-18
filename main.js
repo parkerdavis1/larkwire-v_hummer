@@ -15,6 +15,20 @@ const birdSounds = [
     bird: 'bendire',
     filename: "./sounds/3145 Bendire's Thrasher 04 Calls US-AZ.mp3"
   },
+
+  {
+    bird: 'bendire',
+    filename: "./sounds/XC408175 - Bendire's Thrasher - Toxostoma bendirei.mp3"
+  },
+  {
+    bird: 'bendire',
+    filename: "./sounds/XC435479 - Bendire's Thrasher - Toxostoma bendirei.mp3"
+  },
+  {
+    bird: 'bendire',
+    filename: "./sounds/XC440943 - Bendire's Thrasher - Toxostoma bendirei.mp3"
+  },
+
   {
     bird: 'leconte',
     filename: "./sounds/3153 LeConte's Thrasher 01 Song US-AZ.mp3"
