@@ -1,106 +1,104 @@
 const birdSounds = [
   {
-    bird: 'bendire',
-    filename: "./sounds/3142 Bendire's Thrasher 01 Song US-AZ.mp3"
+    bird: 'bchu',
+    type: 'display',
+    filename: "./sounds/601 Black-chinned Hummingbird 01 Display US-AZ.mp3"
   },
   {
-    bird: 'bendire',
-    filename: "./sounds/3143 Bendire's Thrasher 02 Song US-AZ.mp3"
+    bird: 'bchu',
+    type: 'call',
+    filename: "./sounds/602 Black-chinned Hummingbird 02 Calls US-CA.mp3"
   },
   {
-    bird: 'bendire',
-    filename: "./sounds/3144 Bendire's Thrasher 03 Calls US-AZ.mp3"
+    bird: 'bchu',
+    type: 'call',
+    filename: "./sounds/603 Black-chinned Hummingbird 03 Calls US-AZ.mp3"
   },
   {
-    bird: 'bendire',
-    filename: "./sounds/3145 Bendire's Thrasher 04 Calls US-AZ.mp3"
+    bird: 'bchu',
+    type: 'call',
+    filename: "./sounds/604 Black-chinned Hummingbird 04 Calls US-TX.mp3"
   },
 
   {
-    bird: 'bendire',
-    filename: "./sounds/XC408175 - Bendire's Thrasher - Toxostoma bendirei.mp3"
+    bird: 'anhu',
+    type: 'song',
+    filename: "./sounds/605 Anna's Hummingbird 01 Song US-AZ.mp3"
   },
   {
-    bird: 'bendire',
-    filename: "./sounds/XC435479 - Bendire's Thrasher - Toxostoma bendirei.mp3"
+    bird: 'anhu',
+    type: 'display',
+    filename: "./sounds/606 Anna's Hummingbird 02 Display US-CA.mp3"
   },
   {
-    bird: 'bendire',
-    filename: "./sounds/XC440943 - Bendire's Thrasher - Toxostoma bendirei.mp3"
+    bird: 'anhu',
+    type: 'call',
+    filename: "./sounds/607 Anna's Hummingbird 03 Calls US-CA.mp3"
+  },
+  {
+    bird: 'anhu',
+    type: 'call',
+    filename: "./sounds/608 Anna's Hummingbird 04 Calls US-CA.mp3"
   },
 
   {
-    bird: 'leconte',
-    filename: "./sounds/3153 LeConte's Thrasher 01 Song US-AZ.mp3"
+    bird: 'cohu',
+    type: 'display',
+    filename: "./sounds/609 Costa's Hummingbird 01 Display US-AZ.mp3"
   },
   {
-    bird: 'leconte',
-    filename: "./sounds/3154 LeConte's Thrasher 02 Song US-AZ.mp3"
+    bird: 'cohu',
+    type: 'display',
+    filename: "./sounds/610 Costa's Hummingbird 02 Display US-AZ.mp3"
   },
   {
-    bird: 'leconte',
-    filename: "./sounds/3155 LeConte's Thrasher 03 Song US-AZ.mp3"
+    bird: 'cohu',
+    type: 'call',
+    filename: "./sounds/611 Costa's Hummingbird 03 Calls US-CA.mp3"
   },
   {
-    bird: 'leconte',
-    filename: "./sounds/3156 LeConte's Thrasher 04 Calls US-AZ.mp3"
+    bird: 'cohu',
+    type: 'call',
+    filename: "./sounds/612 Costa's Hummingbird 04 Calls US-CA.mp3"
+  },
+
+  // {
+  //   bird: 'verd',
+  //   type: 'song',
+  //   filename: "./sounds/2753 Verdin 01 Song US-AZ.mp3"
+  // },
+  // {
+  //   bird: 'verd',
+  //   type: 'song',
+  //   filename: "./sounds/2754 Verdin 02 Song US-NM.mp3"
+  // },
+  // {
+  //   bird: 'verd',
+  //   type: 'call',
+  //   filename: "./sounds/2755 Verdin 03 Calls US-AZ.mp3"
+  // },
+  // {
+  //   bird: 'verd',
+  //   type: 'call',
+  //   filename: "./sounds/2756 Verdin 04 Calls US-AZ.mp3"
+  // },
+  // {
+  //   bird: 'verd',
+  //   type: 'call',
+  //   filename: "./sounds/2757 Verdin 05 Calls US-AZ.mp3"
+  // },
+  {
+    bird: 'verd',
+    type: 'call',
+    filename: "./sounds/2758 Verdin 06 Calls US-AZ.mp3"
   },
   {
-    bird: 'leconte',
-    filename: "./sounds/3157 LeConte's Thrasher 05 Calls US-CA.mp3"
-  },
-  {
-    bird: 'leconte',
-    filename: "./sounds/3158 LeConte's Thrasher 06 Calls US-CA.mp3"
-  },
-  {
-    bird: 'crissal',
-    filename: "./sounds/3159 Crissal Thrasher 01 Song US-AZ.mp3"
-  },
-  {
-    bird: 'crissal',
-    filename: "./sounds/3160 Crissal Thrasher 02 Song US-TX.mp3"
-  },
-  {
-    bird: 'crissal',
-    filename: "./sounds/3161 Crissal Thrasher 03 Calls US-NM.mp3"
-  },
-  {
-    bird: 'crissal',
-    filename: "./sounds/3162 Crissal Thrasher 04 Calls US-NV.mp3"
-  },
-  {
-    bird: 'crissal',
-    filename: "./sounds/3163 Crissal Thrasher 05 Calls US-AZ.mp3"
-  },
-  {
-    bird: 'crissal',
-    filename: "./sounds/3164 Crissal Thrasher 06 Calls US-NM.mp3"
-  },
-  {
-    bird: 'sage',
-    filename: "./sounds/3165 Sage Thrasher 01 Song US-CA.mp3"
-  },
-  {
-    bird: 'sage',
-    filename: "./sounds/3166 Sage Thrasher 02 Song US-CA.mp3"
-  },
-  {
-    bird: 'sage',
-    filename: "./sounds/3167 Sage Thrasher 03 Song US-NV.mp3"
-  },
-  {
-    bird: 'sage',
-    filename: "./sounds/3168 Sage Thrasher 04 Song US-CA.mp3"
-  },
-  {
-    bird: 'sage',
-    filename: "./sounds/3169 Sage Thrasher 05 Calls US-AZ.mp3"
-  },
-  {
-    bird: 'sage',
-    filename: "./sounds/3170 Sage Thrasher 06 Calls US-WA.mp3"
-  },
+    bird: 'verd',
+    type: 'call',
+    filename: "./sounds/2759 Verdin 07 Calls US-AZ.mp3"
+  }
+
+
 
 ]
 
