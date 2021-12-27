@@ -1,4 +1,5 @@
 const birdSounds = [
+  // --------------Black-chinned Hummingbird--------------
   {
     bird: 'bchu',
     type: 'display',
@@ -19,7 +20,32 @@ const birdSounds = [
     type: 'call',
     filename: "./sounds/604 Black-chinned Hummingbird 04 Calls US-TX.mp3"
   },
-
+  {
+    bird: 'bchu',
+    type: 'call',
+    filename: "./sounds/XC13527 - Black-chinned Hummingbird - Archilochus alexandri.mp3"
+  },
+  {
+    bird: 'bchu',
+    type: 'call',
+    filename: "./sounds/XC132287 - Black-chinned Hummingbird - Archilochus alexandri.mp3"
+  },
+  {
+    bird: 'bchu',
+    type: 'call',
+    filename: "./sounds/XC132320 - Black-chinned Hummingbird - Archilochus alexandri.mp3"
+  },
+  {
+    bird: 'bchu',
+    type: 'call',
+    filename: "./sounds/XC132324 - Black-chinned Hummingbird - Archilochus alexandri.mp3"
+  },
+  {
+    bird: 'bchu',
+    type: 'call',
+    filename: "./sounds/XC297544 - Black-chinned Hummingbird - Archilochus alexandri.mp3"
+  },
+// ---------------Anna's Hummingbird---------------------
   {
     bird: 'anhu',
     type: 'song',
@@ -40,7 +66,37 @@ const birdSounds = [
     type: 'call',
     filename: "./sounds/608 Anna's Hummingbird 04 Calls US-CA.mp3"
   },
-
+  {
+    bird: 'anhu',
+    type: 'call',
+    filename: "./sounds/XC70078 - Anna's Hummingbird - Calypte anna.mp3"
+  },
+  {
+    bird: 'anhu',
+    type: 'call',
+    filename: "./sounds/XC132220 - Anna's Hummingbird - Calypte anna.mp3"
+  },
+  {
+    bird: 'anhu',
+    type: 'call',
+    filename: "./sounds/XC159808 - Anna's Hummingbird - Calypte anna.mp3"
+  },
+  {
+    bird: 'anhu',
+    type: 'call',
+    filename: "./sounds/XC461240 - Anna's Hummingbird - Calypte anna.mp3"
+  },
+  {
+    bird: 'anhu',
+    type: 'call',
+    filename: "./sounds/XC524667 - Anna's Hummingbird - Calypte anna.mp3"
+  },
+  {
+    bird: 'anhu',
+    type: 'call',
+    filename: "./sounds/XC524805 - Anna's Hummingbird - Calypte anna.mp3"
+  },
+// ----------------Costa's Hummingbird-------------------
   {
     bird: 'cohu',
     type: 'display',
@@ -61,6 +117,32 @@ const birdSounds = [
     type: 'call',
     filename: "./sounds/612 Costa's Hummingbird 04 Calls US-CA.mp3"
   },
+  {
+    bird: 'cohu',
+    type: 'call',
+    filename: "./sounds/XC21428 - Costa's Hummingbird - Calypte costae.mp3"
+  },
+  {
+    bird: 'cohu',
+    type: 'call',
+    filename: "./sounds/XC138145 - Costa's Hummingbird - Calypte costae.mp3"
+  },
+  {
+    bird: 'cohu',
+    type: 'call',
+    filename: "./sounds/XC143788 - Costa's Hummingbird - Calypte costae.mp3"
+  },
+  {
+    bird: 'cohu',
+    type: 'call',
+    filename: "./sounds/XC218781 - Costa's Hummingbird - Calypte costae.mp3"
+  },
+  {
+    bird: 'cohu',
+    type: 'call',
+    filename: "./sounds/XC390286 - Costa's Hummingbird - Calypte costae.mp3"
+  },
+// ---------------------Verdin----------------------
 
   // {
   //   bird: 'verd',
